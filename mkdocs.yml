@@ -4,4 +4,4 @@ theme:
   name: material
 
 extra_javascript:
-  - customElementForm.js
+  - javascripts/customElementForm.js
