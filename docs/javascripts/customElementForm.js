@@ -5,7 +5,7 @@ class MyCustomElement extends HTMLElement {
     }
 
     connectedCallback() {
-        const shadow = this.attachShadow({ mode: "closed" });
+        const shadow = this.attachShadow({ mode: "open" });
 
         const form = document.createElement("form");
         const input = document.createElement("input");
