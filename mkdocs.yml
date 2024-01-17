@@ -5,6 +5,3 @@ theme:
 
 extra_javascript:
   - customElementForm.js
-
-plugins:
-  - info
